@@ -1,0 +1,44 @@
+# Output files (generated content)
+output/
+*.html
+
+# Personal images
+images/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Personal data
+input/*.txt
+references/번역전*.txt
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
