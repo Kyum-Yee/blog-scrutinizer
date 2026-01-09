@@ -42,21 +42,34 @@ pip install -r requirements.txt
 
 **This tool is designed to work with AI coding assistants.**
 
+**🌟 Recommended AI Agent**: [Antigravity](https://www.anthropic.com/claude) with **Claude Sonnet 4.5 (Thinking)**
+
+#### Setup Instructions:
+
 1. **Copy the system prompt to your AI agent**:
-   - Open `prompt.txt`
-   - Copy the entire contents
+   - Open `prompt.txt` in this repository
+   - Copy the **entire contents**
    - Paste it into your AI code agent's system prompt or custom instructions
+   - For Antigravity: Add it to your project context
 
-2. Place your content in `input/sample.txt`
+2. **Prepare your input**:
+   - Navigate to `input/sample.txt`
+   - **Append your content after the existing sample instructions**
+   - Do NOT delete the sample - write your content after it
 
-3. Let the AI agent run the autonomous workflow:
-   ```bash
-   python one_click_main.py
-   ```
+3. **Let the AI agent run the autonomous workflow**:
+   - The AI will automatically detect and process your content
+   - It will generate HTML in `output/`
+   - The AI handles all validation and optimization
 
-4. Find the generated HTML in `output/`
+4. **Review the output**:
+   - Find the generated HTML in `output/final_[filename].html`
+   - All images, tags, and formatting are handled automatically
 
-**💡 The `prompt.txt` contains all the rules and workflows the AI needs to operate autonomously.**
+**💡 Key Points**:
+- The `prompt.txt` contains all the rules and workflows the AI needs
+- The AI operates autonomously - you just provide the content
+- No manual configuration required
 
 ### Manual Usage (Without AI Agent)
 
