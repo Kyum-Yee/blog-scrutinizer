@@ -1,0 +1,14 @@
+# Sample Input Template
+
+Place your content here to be processed by the Blog Scrutinizer.
+
+## Instructions:
+
+1. Keep this file as a reference
+2. Create your own file (e.g., `input/my_content.txt`)
+3. Or append your content below the `---` line in this file
+4. The AI will process your content automatically
+
+---
+
+[Write your blog content here...]

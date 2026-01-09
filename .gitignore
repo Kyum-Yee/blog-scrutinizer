@@ -1,12 +1,11 @@
 # Output files (generated content)
-output/
-*.html
+output/*.html
+!output/.gitkeep
 
-# Personal images
-images/
-*.png
-*.jpg
-*.jpeg
+# Input files (except sample)
+input/*.txt
+!input/sample_template.txt
+!input/.gitkeep
 *.webp
 
 # Python cache
