@@ -25,6 +25,7 @@ Blog Scrutinizer is an autonomous AI agent that generates, validates, and optimi
 - Python 3.10+
 - Git
 - GitHub CLI (`gh`)
+- **AI Code Agent** (Claude, GPT-4, etc.)
 
 ### Installation
 
@@ -37,7 +38,27 @@ cd blog-scrutinizer
 pip install -r requirements.txt
 ```
 
-### Basic Usage
+### 🤖 **Using with AI Code Agent (Recommended)**
+
+**This tool is designed to work with AI coding assistants.**
+
+1. **Copy the system prompt to your AI agent**:
+   - Open `prompt.txt`
+   - Copy the entire contents
+   - Paste it into your AI code agent's system prompt or custom instructions
+
+2. Place your content in `input/sample.txt`
+
+3. Let the AI agent run the autonomous workflow:
+   ```bash
+   python one_click_main.py
+   ```
+
+4. Find the generated HTML in `output/`
+
+**💡 The `prompt.txt` contains all the rules and workflows the AI needs to operate autonomously.**
+
+### Manual Usage (Without AI Agent)
 
 1. Place your content in `input/sample.txt`
 2. Run the autonomous workflow:
